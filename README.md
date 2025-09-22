@@ -10,8 +10,3 @@ cd dashboard-ecommerce-ebac
 pip install -r requirements.txt
 python app.py
 ```
-
-Depois, acesse no navegador: `http://127.0.0.1:8050/`
-
-## 🌍 Deploy online
-Você pode publicar no **Render** ou **Heroku** conectando este repositório do GitHub.
