@@ -35,7 +35,7 @@ app.layout = html.Div([
     dcc.Graph(figure=fig_reg),
 ])
 
-server = app.server  # Necessário para deploy
+server = app.server  
 
 if __name__ == "__main__":
     app.run_server(debug=True)
